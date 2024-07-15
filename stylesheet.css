@@ -1,0 +1,63 @@
+:root {
+ --body-text: #F4F1DE;
+}
+
+body {
+  background-color: #254441; 
+  margin-left: 2%; 
+  margin-top: 2%; 
+  font-family: "Lucidia Console", monospace; color: white;
+  color: #F4F1DE
+}
+p {
+  font-size: 24px; 
+  color: #F4F1DE
+}
+h1 {
+  color:#81B29A;
+  font-family: "Lucidia Console", monospace;
+  font-size:50px
+}
+
+li {
+  font-size: 24px;
+}
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #81B29A;
+  color: white;
+  text-align: center;
+}
+.link-container {
+  list-style-type: none;
+  padding: 20px;
+  display: grid;
+  grid-auto-flow: column;
+}
+
+a {
+  color: var(--body-text)
+}
+
+.reading-list a {
+  font-size: 22px;
+}
+
+.main a {
+  font-size: 22px;
+}
+
+a:link {
+  color: var(--body-text);
+}
+
+a:visited {
+  color: var(--body-text);
+}
+
+.current-antics p,li {
+  font-size: 18px; 
+}
